@@ -1,0 +1,21 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorRandom {
+    padding: 0.25rem 0.5rem;
+    border: 3px solid white;
+    border-radius: 7px;
+    color: white;
+    background: black;
+    font-size: 0.85rem;
+    text-transform: capitalize;
+    cursor: pointer; 
+}
+
+.colorRandom:hover{
+    background: grey;
+} 
